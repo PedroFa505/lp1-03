@@ -1,0 +1,36 @@
+Slide 3 - Tipos
+
+1.
+a)O que é um tipo de dados?
+
+Um tipo de dados é uma classificação definindo valores que uma variável possui e que tipos de operações podemos fazer com elas.
+
+b)Para que servem os tipos?
+
+Para prevenir quaisquer erros de lógica e de operação, para facilitar a documentação, otimizar o uso da memória e
+
+------------------------------------
+2.
+a)O que você espera que aconteça ao compilar o programa? Por quê?
+
+Vai dar erro. Porque é impossivel operar int com string.
+
+b)Quais são os tipos dos operandos na operação de subtração?
+
+int e string(um vetor de char)
+
+c) Transcreva a mensagem de erro de compilação e a explique.
+
+lp1-03.c:3:30: error: invalid operands to binary - (have ‘int’ and ‘char *’)
+    3 |     printf("Soma = %d\n", 100-"10");
+      |                              ^
+      |                              |
+      |                              char *
+
+A mensagem de erro está dizendo "operandos inválidos para um operador binário", o que quer dizer que há dois valores mas o compilador não sabe como calcular a diferença entre eles.
+
+A mensagem também diz que o erro está em seguida, pelo valor ser char
+
+---------------------------------------
+
+
