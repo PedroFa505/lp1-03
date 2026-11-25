@@ -32,5 +32,19 @@ A mensagem de erro está dizendo "operandos inválidos para um operador binário
 A mensagem também diz que o erro está em seguida, pelo valor ser char
 
 ---------------------------------------
+4.
+a)Tipagem estática é quando uma linguagem requer que você defina a tipagem de um valor e só será compilada caso não há nenhuma inválida, caso seja uma inválida, dirá o erro de antemão. Diferente da dinâmica, que não é necessario especificar a tipagem para funcionar e ela será definida conforme a execução, em caso de erro, a linguagem mostrará no meio da execução.
 
+b)C, C++ e Java são exemplos de tipagem estática; 
+Javascript e Python são exemplos de tipagem dinâmica.
+
+c)Porque o compilador já conhece os tipos dos dados antes da execução do programa. Assim, consegue preparar operações mais diretamente, sem precisar verificar os tipos constantemente durante a execução.
+
+exemplo em C:
+int a = 10;
+float b = 20.0;
+
+exemplo em Python:
+a = 10
+b = 20
 
